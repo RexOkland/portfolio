@@ -1,6 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<title> "Rexs Default Style Guide" </title>
+<Style>
 b{
-	background-color: C8C8C8;
-	font-family: calibri; /*dad's favorite*/
+	background-color: #C8C8C8;
+	font-family: "calibri"; /*dad's favorite*/
 	color: 404040;
 }
-
+h1{
+	background-color: #008080;
+	font-family: "calibri";
+	color: #181818;
+}
+</Style>
+</html>
