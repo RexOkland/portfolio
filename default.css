@@ -38,30 +38,32 @@ li a{
   padding: 14px 16px;
   text-decoration: none;
 }*/
-ul.primary {
+.primary{
+	background-color: #2B7C85;
+	color: white;
+}
+.primary ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #175873;
 }
-
-li.primary {
-  display: inline;
+.primary li{
+	display: inline-block;
 	padding: 14px 16px;
+	text-align: center;
 }
-
-li.primary a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-li.primary a:hover {
-  background-color: #FFF;
-	color: #175873;
-}
-li.primary a:visited{
+.primary a{
 	color: white;
+	background-color: #2B7C85;
+	text-decoration: none;
+}
+.primary a:hover{
+	color: white;
+	background-color: #175873;
+	text-decoration: none;
+}
+.primary a:visited{
+	color: white;
+	background-color: #2B7C85;
+	text-decoration: none;
 }
