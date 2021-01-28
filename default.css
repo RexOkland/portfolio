@@ -8,7 +8,7 @@ h1{
 	font-family: "calibri";
 }
 h2{
-	color: #2B7C85;
+	color: #000000;
 	font-family: "calibri";
 }
 p{
@@ -58,7 +58,6 @@ li a{
 }
 .primary li{
 	display: inline-block;
-	padding: 14px 16px;
 	text-align: center;
 	border-right: 1px solid white;
 	color: white;
@@ -67,10 +66,17 @@ li a{
 .primary li:last-child{
 	border-right: none;
 }
-.primary a:link a:visited{
+.primary a:link {
 	color: white;
 	background-color: #2B7C85;
 	text-decoration: none;
+	padding: 14px 16px;
+}
+.primary a:visited{
+	color: white;
+	background-color: #2B7C85;
+	text-decoration: none;
+	padding: 14px 16px;
 }
 .primary a:hover{
 	color: white;
