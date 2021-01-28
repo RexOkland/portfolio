@@ -15,3 +15,11 @@ ul{
 	color: #3B3F46;
 	font-family: "calibri";
 }
+.primary{
+	display: inline;
+	border-right: 1px solid #F98125;
+}
+.primaryX{
+	display: inline;
+	border-right: none;
+}
