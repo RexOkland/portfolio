@@ -26,7 +26,7 @@ ul.primary {
 li.primary {
 	border-right: 1px solid #175873;
   float: left;
-	display: inline;
+	display: inline-block;
 }
 li.primary:last-child{
 	float: left;
@@ -34,7 +34,6 @@ li.primary:last-child{
 }
 
 li a{
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
