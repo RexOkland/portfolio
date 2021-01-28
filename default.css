@@ -43,22 +43,25 @@ ul.primary {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #175873;
 }
 
-li.primary{
-  float: left;
+li.primary {
+  display: inline;
+	padding: 14px 16px;
 }
 
 li.primary a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li.primary a:hover {
-  background-color: #111;
+  background-color: #FFF;
+	color: #175873;
+}
+li.primary a:visited{
+	color: white;
 }
