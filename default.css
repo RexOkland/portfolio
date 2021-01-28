@@ -61,6 +61,8 @@ li a{
 	padding: 14px 16px;
 	text-align: center;
 	border-right: 1px solid white;
+	color: white;
+	background-color: #2B7C85;
 }
 .primary li:last-child{
 	border-right: none;
@@ -74,9 +76,11 @@ li a{
 	color: white;
 	background-color: #175873;
 	text-decoration: none;
+	padding: 14px 16px;
 }
 .primary a:visited:hover{
 	color: white;
 	background-color: #175873;
 	text-decoration: none;
+	padding: 14px 16px;
 }
