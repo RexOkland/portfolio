@@ -22,11 +22,11 @@ ul.primary {
   overflow: hidden;
   background-color: #2B7C85;
 	color: white;
+	display: inline;
 }
 li.primary {
 	border-right: 1px solid #175873;
   float: left;
-	display: inline-block;
 }
 li.primary:last-child{
 	float: left;
