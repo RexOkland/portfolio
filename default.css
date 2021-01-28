@@ -45,9 +45,10 @@ li a{
 	background-color: #2B7C85;
 	color: white;
 }*/
-#nav{
+#content{
 	background-color: #808080;
 	padding: 5px;
+	color: white;
 }
 .primary ul{
   list-style-type: none;
