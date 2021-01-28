@@ -45,6 +45,10 @@ li a{
 	background-color: #2B7C85;
 	color: white;
 }*/
+#nav{
+	background-color: #808080;
+	padding: 5px;
+}
 .primary ul{
   list-style-type: none;
 	background-color: #2B7C85;
@@ -55,9 +59,12 @@ li a{
 	display: inline-block;
 	padding: 14px 16px;
 	text-align: center;
-	border: 1px solid white;
+	border-right: 1px solid white;
 }
-.primary a{
+.primary li:last-child{
+	border-right: none;
+}
+.primary a:link a:visited{
 	color: white;
 	background-color: #2B7C85;
 	text-decoration: none;
@@ -67,8 +74,8 @@ li a{
 	background-color: #175873;
 	text-decoration: none;
 }
-.primary a:visited{
+.primary a:visited:hover{
 	color: white;
-	background-color: #2B7C85;
+	background-color: #175873;
 	text-decoration: none;
 }
