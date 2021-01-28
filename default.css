@@ -26,6 +26,7 @@ ul.primary {
 li.primary {
 	border-right: 1px solid #175873;
   float: left;
+	display: inline;
 }
 li.primary:last-child{
 	float: left;
