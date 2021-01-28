@@ -15,31 +15,27 @@ p{
 	color: #C85417;
 	font-family: "calibri";
 }
-ul {
+ul.primary {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F98125;
-	color: #2B7C85;
+  background-color: #2B7C85;
+	color: white;
 }
-li {
+li.primary {
+	border-right: 1px solid #175873;
   float: left;
 }
-li a {
+li.primary:last-child{
+	float: left;
+	border-right: none;
+}
+
+li a{
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-/*
-.primary{
-	display: inline;
-	border-right: 1px solid #F98125;
-}
-.primaryX{
-	display: inline;
-	border-right: none;
-}
-*/
