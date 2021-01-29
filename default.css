@@ -94,7 +94,41 @@ li a{
 }
 .li1{
 	background-color: #36454F;
+	padding: 15px;
+	margins: 10px;
 }
 h3{
 	clear: both;
+}
+.animals{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.animals img{
+	width: 325px;
+	
+}
+.animals_box{
+	background-color:#2B7C85;
+	border: thin solid #153E42;
+	margin: 10px;
+}
+/*mid-range devices*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.animals_box{
+		background-color: beige;
+	}
+	.animals img{
+		width: 250px;
+	}
+}
+/*mobile devices*/
+@media only screen and (max-width: 400px) {
+	.animals_box{
+		background-color: coral;
+	}
+	.animals img{
+		width: 125px;
+	}
 }
