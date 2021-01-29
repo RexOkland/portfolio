@@ -93,5 +93,9 @@ li a{
 .li1{
 	display: inline;
 	float: left;
+	width: 31%;
 	background-color: #36454F;
+}
+h3{
+	clear: both;
 }
