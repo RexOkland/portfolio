@@ -12,7 +12,7 @@ h2{
 	font-family: "calibri";
 }
 p{
-	color: #C85417;
+	color: #175873;
 	font-family: "calibri";
 }
 /*ul.primary {
@@ -89,4 +89,9 @@ li a{
 	background-color: #175873;
 	text-decoration: none;
 	padding: 14px 16px;
+}
+.li1{
+	display: inline;
+	float: left;
+	background-color: #36454F;
 }
