@@ -124,8 +124,8 @@ h3{
 	}
 }
 /*mobile devices*/
-@media only screen and (max-width: 400px) {
-	.animals_box{
+
+	@media only screen and (max-width: 400px) {.animals_box{
 		background-color: coral;
 	}
 	.animals img{
