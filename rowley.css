@@ -1,0 +1,96 @@
+/* this is where rowleys style guide will come into play */
+.bio{
+	display: flex;
+	justify-content: center;
+	background-color: #1A59C2;
+	font-family: "calibri";
+}
+.bio2{
+	background-color: #1A59C2;
+	font-family: "calibri";
+}
+.image_outline{
+	padding: 5px;
+	margin: 10px;
+	background-color: darkgoldenrod;
+}
+.text_outline{
+	padding: 10px;
+	background-color:#F7E746;
+	margin: 10px;
+}
+.sub{
+	display: flex;
+	justify-content: flex-start;
+	font: "Aquafina Script";
+	color: black;
+	size: 200px;
+	padding: 50px;
+	background-color: #F7E746;
+}
+.title_text{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: #2AA4E1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-right: 100px
+}
+.bootstrap{
+	background-color: #167BCB;
+	display: flex;
+	justify-content: center;
+}
+.bootstrap p{
+	background-color: #0B046C;
+	border-right: 2px solid #167BCB;
+	color: white;
+	padding: 20px;
+}
+.message-from-rowley{
+	width: 200px;
+}
+a:hover p{
+	text-decoration: none;
+	background-color: #F7E746;
+	color: black;
+	padding: 20px;
+}
+a:visited p{
+	text-decoration: none;
+}
+.photo_collage{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #1A59C2;
+}
+img{
+	padding: 5px;
+	margin:20px
+}
+.image_outline2{
+	padding: 5px;
+	margin: 10px;
+	background-color: #F7E746;
+	font-size: 20;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.image_outline2{
+		padding: 5px;
+		margin: 5px;
+		background-color: #F7E746;
+		font-size: 12
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.image_outline2{
+		padding: 5px;
+		margin: 5px;
+		background-color: #F7E746;
+		font-size: 11
+	}
+}
