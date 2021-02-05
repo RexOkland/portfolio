@@ -186,6 +186,17 @@ a:visited:hover p{
 	padding: 20px;
 	width:90%;
 }
+.descript_c3{
+	background-color: #6E98A6;
+	color: #043140;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	width:90%;
+}
 .descript h2{
 	font-size: 36px;
 }
@@ -208,6 +219,12 @@ a:visited:hover p{
 	font-size: 30px;
 }
 .descript_c2 p{
+	font-size: 24px;
+}
+.descript_c3 h2{
+	font-size: 30px;
+}
+.descript_c3 p{
 	font-size: 24px;
 }
 .pic{
