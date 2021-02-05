@@ -227,6 +227,7 @@ a:visited:hover p{
 .horz_photo_stripe img{
 	width: 26%;
 	margin: 2%;
+	height:26%;
 }
 .text_colums{
 	display: flex;
