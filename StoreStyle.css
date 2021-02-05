@@ -1,0 +1,56 @@
+.boot{
+	background-color: #B35D77;
+	color: #4f061c;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	border: 2px antiquewhite solid;
+}
+.boot p{
+	color: antiquewhite;
+	text-decoration: none;
+}
+.boot a:visited{
+	text-decoration: none;
+	color: antiquewhite;
+}
+body{
+	background-color:antiquewhite;
+}
+.bootstrap{
+	width: 100%;
+	background-color: #b35d77;
+	display: flex;	
+	justify-content: left;
+	margin: 0px;
+}
+.bootstap p{
+	color: #4f061c;
+	width: 25%;
+}
+h1{
+	padding: 20px;
+	background-color: #4f061c;
+	color: antiquewhite;
+	margin-botom: 0px;
+}
+.layout{
+	display: flex;
+	flex-wrap: wrap;
+}
+.layout img{
+	margin: 20px;
+	width: 350px;
+}
+.descript_1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #4f061c;
+}
+.descript_1 h2{
+	font-size: 36px;
+}
+.descript_1 b{
+	font-size: 30px;
+}
