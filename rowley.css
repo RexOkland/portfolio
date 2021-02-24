@@ -28,6 +28,16 @@
 	padding: 50px;
 	background-color: #F7E746;
 }
+
+li{
+	color: #1A59C2;
+	font-size: 30;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.nav-item{
+	color: #1A59C2 !important;
+}
+
 .title_text{
 	display: flex;
 	justify-content: center;
@@ -94,4 +104,8 @@ img{
 		background-color: #F7E746;
 		font-size: 11
 	}
+}
+.navbar-light{
+	background-color: #F7E746 !important; 
+	color: #1A59C2;
 }
