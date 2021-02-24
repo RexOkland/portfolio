@@ -1,0 +1,100 @@
+@keyframes slider{
+	0%{transform: translateX(0%);}
+	100%{transform: translateX(-100%);}
+}
+@keyframes slider2{
+	0%{transform: translateX(0%);}
+	100%{transform: translateX(100%);}
+}
+
+html{
+	background-color: #36454f;
+	overflow-x: hidden;
+}
+li{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #86b2eb;
+}
+li:visited{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #86b2eb;
+	text-decoration: none;
+}
+li:hover{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #86b2eb;
+	text-decoration: none;
+}
+.intro{
+	background-color: #36454f;
+	font-size: 45;
+	color: #9E814A;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: 0px;
+	padding: 2%;
+}
+.intro p{
+	color: #86b2eb;
+}
+.bootstrap{
+	margin-top: 0.5%;
+	width: 100%;
+	background-color: #9E814A;
+	display: flex;
+	flex: wrap;
+	justify-content: left;
+}
+.bootstrap p{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.boot{
+	width: 50%;
+	border-right: 2px solid #36454f;
+	background-color: #9E814A;
+	padding: 10px;
+	align-content: left;
+}
+.boot:hover{
+	background-color: #86b2eb;
+	color: #9E814A;
+	text-decoration: none;
+}
+.boot:visited{
+	background-color: #86b2eb;
+	color: #9E814A;
+	text-decoration: none;
+}
+.boot:visited:hover{
+	background-color: #86b2eb;
+	color: #9E814A;
+	text-decoration: none;
+}
+.mosaic{
+	display: flex;
+	flex: wrap;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	animation-name: slider;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.mosaic2{
+	display: flex;
+	flex: wrap;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	animation-name: slider;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+}
+img{
+	width: 20%;
+}
+
